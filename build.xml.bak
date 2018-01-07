@@ -69,11 +69,11 @@
     <jar jarfile="${dist.home}/${app.name}.war"
          basedir="${work.home}"/>
   </target>
-  <!-- <target name="adv" depends="run" >
+  <target name="adv" depends="run" >
 		 <echo>Advanced Tasks</echo>
          <scp file="${build_dir}/${jar_dir}/${file_name}.jar" todir="${user}:${pass}@192.168.0.100:/home/gangadhar" trust="true"/>
          <!-- <sshexec host="192.168.0.100" username="${user}" password="${pass}" command="df -h" trust="true"/> -->
-   </target> -->
+   </target>
 
   
 </project> 
